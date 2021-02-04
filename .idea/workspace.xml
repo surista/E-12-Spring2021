@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70ca78-6f99-4375-999d-16423858f8f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hello/hello-harvard.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/hello-harvard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/essential_html5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/essential_html5/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,9 @@
       <workItem from="1612083983726" duration="379000" />
       <workItem from="1612335408214" duration="4177000" />
       <workItem from="1612351298341" duration="306000" />
-      <workItem from="1612351613714" duration="163000" />
+      <workItem from="1612351613714" duration="5127000" />
+      <workItem from="1612397912124" duration="503000" />
+      <workItem from="1612428981909" duration="36000" />
     </task>
     <servers />
   </component>
