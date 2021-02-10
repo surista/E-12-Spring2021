@@ -9,7 +9,6 @@
 </head>
 
 <body>
-<p>
     <main>
         <h1>Sandwich Lunch Special: 10.25</h1>
         <p>Daily 11:00 am to 3:00 pm  sandwich + snack + drink</p>
@@ -20,8 +19,6 @@
 
 
         <h2>+ Choose any drink</h2>
-
-    </main>
 
 
 <div id="side-nav">
@@ -34,46 +31,89 @@
     Multi-grain specials
 </div>
 
-<form>
-    <input type="text" placeholder="Name">Name
-    <h3>Here or To Go (choose one)</h3>
-    <p><input type="radio" name="togo">Here <input type="radio" name="togo">To Go</p>
-    <h3>Sandwich types (choose one)</h3>
-    <input type="radio" name="sandwich">Chicken Salad <input type="radio" name="sandwich">Egg Salad</h3>
-    <input type="radio" name="sandwich">Roasted Red Pepper Hummus <input type="radio" name="sandwich">Tomato Mozzarella</p>
-    <input type="radio" name="sandwich">Roasted Turkey <input type="radio" name="sandwich">Tuna Salad</p>
+<form method="post" action=action="https://cs12students.dce.harvard.edu/echo"">
+    <label for="name"><input type="text" placeholder="Name" id="name">Name</label>
+    <fieldset>
+        <legend>Here or To Go (choose one)</legend>
+        <label for="here"><input type="radio" id="here" name="togo">Here</label>
+        <label for="togo"><input type="radio" id="togo" name="togo">To Go</label>
+    </fieldset>
+    <fieldset>
+        <legend>Sandwich types (choose one)</legend>
+        <label for="chicken_salad"><input type="radio" id="chicken_salad" name="sandwich"></label>Chicken Salad
+        <label for="egg_salad"><input type="radio" id="egg_salad" name="sandwich">Egg Salad</label>
+        <label for="red_pepper"><input type="radio" id="red_pepper" name="sandwich">Roasted Red Pepper Hummus</label>
+        <label for="tomato_mozzarella"><input type="radio" id="tomato_mozzarella" name="sandwich">Tomato Mozzarella</label>
+        <label for="roasted_turkey"><input type="radio" id="roasted_turkey" name="sandwich">Roasted Turkey</label>
+        <label for="tuna_salad"><input type="radio" id="tuna_salad" name="sandwich">Tuna Salad</label>
+    </fieldset>
 
-
+    <fieldset>
     <h2>Sandwich options</h2>
-    <h3>Breads (choose one)</h3>
+    <legend>Breads (choose one)</legend>
+        <label for="7grain"><input type="radio" id="7grain" name="breads">7-Grain</label>
+        <label for="french"><input type="radio" id="french" name="breads">French</label>
+        <label for="wheat_wrap"><input type="radio" id="wheat_wrap" name="breads">Wheat Wrap</label>
+        <label for="bagel"><input type="radio" id="bagel" name="breads">Bagel</label>
+        <label for="gluten_free"><input type="radio" id="gluten_free" name="breads">Gluten Free Bread</label>
+    </fieldset>
 
-    <input type="radio" name="breads">7-Grain <input type="radio" name="breads">French</h3>
-    <input type="radio" name="breads">Wheat Wrap <input type="radio" name="breads">Bagel
-    <input type="radio" name="breads">Gluten Free Bread
+    <fieldset>
+    <legend>Spreads (choose zero or more)</legend>
+        <label for="mayo"><input type="checkbox" id="mayo" name="spreads">Mayonnaise</label>
+        <label for="honey_mustard"><input type="checkbox" id="honey_mustard" name="spreads">Honey Mustard</label>
+        <label for="pesto"><input type="checkbox" id="pesto" name="spreads">Pesto</label>
+        <label for="olive"><input type="checkbox" id="olive" name="spreads">Olive</label>
+    </fieldset>
 
-    <h3>Spreads (choose zero or more)</h3>
-    <input type="radio" name="spreads">Mayonnaise <input type="radio" name="spreads">Honey Mustard</h3>
-    <input type="radio" name="spreads">Pesto <input type="radio" name="spreads">Olive
+    <fieldset>
+    <legend>Cheeses(choose zero or more)</legend>
+        <label for="feta"><input type="checkbox" id="feta" name="cheeses">Feta</label>
+        <label for="mozzarella"><input type="checkbox" id="mozzarella" name="cheeses">Fresh Mozzarella</label>
+        <label for="swiss"><input type="checkbox" id="swiss" name="cheeses">Swiss</label>
+    </fieldset>
 
+    <fieldset>
+    <legend>Fillings (choose zero or more)</legend>
+        <label for="tomato"><input type="checkbox" id="tomato" name="fillings">Tomato</label>
+        <label for="greens"><input type="checkbox" id="greens" name="fillings">Mixed Greens</label>
+        <label for="cucumber"><input type="checkbox" id="cucumber" name="fillings">Cucumber</label>
+        <label for="red_onion"><input type="checkbox" id="red_onion" name="fillings">Red Onion</label>
+    </fieldset>
 
+    <fieldset>
+    <legend>Snack (choose one)</legend>
+        <label for="apple">
+            <input type="radio" id="apple" name="snacks">
+        </label>Apple
+        <label>
+            <input type="radio" id="banana" name="snacks">
+        </label>Banana
+        <label>
+            <input type="radio" id="chips" name="snacks">
+        </label>Chips
+    </fieldset>
 
-    <h3>Cheeses(choose zero or more)</h3>
-    <input type="radio" name="cheeses">Feta <input type="radio" name="cheeses">Fresh Mozzarella</h3>
-    <input type="radio" name="cheeses">Swiss
+    <fieldset>
+    <legend>Drink (Hot or Iced; Regular or Large)</legend>
+        <label>
+            <input type="radio" id="coffee" name="drinks">
+        </label>Coffee
+        <label>
+            <input type="radio" id="green_tea" name="drinks">
+        </label>Sencha Green Tea
+        <label>
+            <input type="radio" id="black_tea" name="drinks">
+        </label>Keemun Black Tea
+        <label>
+            <input type="radio" id="peppermint_tea" name="drinks">
+        </label>Organic Peppermint Tea
+    </fieldset>
 
-    <h3>Fillings (choose zero or more)</h3>
-    <input type="radio" name="fillings">Tomato <input type="radio" name="fillings">Mixed Greens</h3>
-    <input type="radio" name="fillings">Cucumber<input type="radio" name="fillings">Red Onion
-
-    <h3>Snack (choose one)</h3>
-    <input type="radio" name="snacks">Apple <input type="radio" name="snacks">Banana</h3>
-    <input type="radio" name="snacks">Chips
-
-    <h3>Drink (Hot or Iced; Regular or Large)</h3>
-    <input type="radio" name="drinks">Coffee <input type="radio" name="drinks">Sencha Green Tea</h3>
-    <input type="radio" name="drinks">Keemun Black Tea<input type="radio" name="drinks">Organic Peppermint Tea
-
-    <p><input type="submit">
-    <p><input type="reset">
-
+    <p><input type="submit" value="Place Order">
+    <p><input type="reset" value="Reset">
+</p>
 </form>
+    </main>
+</body>
+</html>
