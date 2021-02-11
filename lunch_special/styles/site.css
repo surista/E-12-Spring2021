@@ -1,0 +1,18 @@
+body {
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+    background-color: beige;
+}
+
+main {
+    width: 30;
+    align-content: center;
+    float: left;
+}
+
+header {
+    background-color: darkkhaki;
+}
+
+#side-nav {
+    float: left;
+}
