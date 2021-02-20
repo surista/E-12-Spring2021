@@ -1,0 +1,78 @@
+body {
+    background-color: #e0e0eb;
+    font-family: Proxima Nova,Helvetica,Arial,sans-serif;
+    align-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+
+#logo {
+    clear: left;
+    background-image: url("../images/bbc_news_120x60.gif"); /* 150 x 79 px */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 15px 150px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: "Raleway";
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+h2 a {
+    color: #CD1800;
+}
+
+.synopsis {
+    font-size: 1em;
+}
+
+
+.footer {
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    background-color: #fdf5e6;
+    margin: 20px 0px;
+    clear: both;
+    padding: 0.2em 10px;
+}
+
+
+.timestamp {
+    font-size: 0.6em;
+    font-style: italic;
+}
+
+
+#globalnav {
+    float: left;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+
+
+#globalnav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+
+#globalnav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}

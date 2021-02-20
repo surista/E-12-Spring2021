@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70ca78-6f99-4375-999d-16423858f8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lunch_special/ll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/images/bbc_news_120x60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/science.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/styles/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/tech.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/txt/bbc-sci-env.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/txt/bbc-tech.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/txt/bbc-world.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbc/world.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lunch_special/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lunch_special.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lunch_special.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lunch_special/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lunch_special/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lunch_special/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/lunch_special/styles/site.css" afterDir="false" />
     </list>
@@ -36,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udemy Web Developer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bbc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,32 +60,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My_Coding\E-12-Spring2021\bbc" />
+      <recent name="G:\My_Coding\E-12-Spring2021\lunch_special\styles" />
       <recent name="G:\My_Coding\Udemy Web Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="hello-harvard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/hello/hello-harvard.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/lunch_special/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/essential_html5/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="race.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/essential_html5/race.html" useBuiltInWebServerPort="true">
+    <configuration name="science.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/science.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/register.html" useBuiltInWebServerPort="true">
+    <configuration name="tech.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/tech.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="world.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/world.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.world.html" />
+        <item itemvalue="JavaScript Debug.tech.html" />
+        <item itemvalue="JavaScript Debug.science.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.race.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.register.html" />
-        <item itemvalue="JavaScript Debug.hello-harvard.html" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +109,11 @@
       <workItem from="1612433738293" duration="1623000" />
       <workItem from="1612680732344" duration="9070000" />
       <workItem from="1612939359627" duration="5744000" />
-      <workItem from="1613023757175" duration="4105000" />
+      <workItem from="1613023757175" duration="4510000" />
+      <workItem from="1613118913261" duration="5000" />
+      <workItem from="1613133302699" duration="1674000" />
+      <workItem from="1613349343895" duration="5124000" />
+      <workItem from="1613729862966" duration="21463000" />
     </task>
     <servers />
   </component>

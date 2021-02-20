@@ -1,18 +1,80 @@
+
 body {
-    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
-    background-color: beige;
+    background-color: cornsilk;
+    padding-left: 35%;
+    padding-right: 35%;
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Georgia, serif;
 }
 
-main {
-    width: 30;
+h1 {
+    font-size: 1.5em;
+        text-align: center;
+}
+h3 {
+    font-size: 1em;
+}
+
+p {
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.9em;
+}
+
+main, footer {
     align-content: center;
-    float: left;
 }
 
-header {
-    background-color: darkkhaki;
+input:hover {
+    background-color: cyan;
 }
 
-#side-nav {
-    float: left;
+input[type="text"] {
+    color: #ac2925;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+input[type="email"] {
+    color: #ac2925;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 2px #0f0f0f;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 2px #0f0f0f;
+}
+
+legend {
+    font-size: 1.2em;
+    padding-top:15px;
+}
+
+fieldset {
+    background-color: whitesmoke;
+    border: 2px solid #a94442;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+#submit {
+    color: #a94442;
+    font-size: 1em;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+
+#reset {
+    color: #a94442;
+    font-size: 1em;
+    margin-left: 60px;
+    border-radius: 10px;
 }
