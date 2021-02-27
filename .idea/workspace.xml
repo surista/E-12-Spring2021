@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70ca78-6f99-4375-999d-16423858f8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bbc.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/images/bbc_news_120x60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/science.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/styles/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/tech.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/txt/bbc-sci-env.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/txt/bbc-tech.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/txt/bbc-world.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbc/world.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lunch_special/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/._page_layout" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._images" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._styles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/images/._basil-250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/images/._mint-250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/styles/._site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/page_layout/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/page_layout/images/basil-250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/page_layout/images/mint-250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/page_layout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_layout/page_layout/styles/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lunch_special.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lunch_special.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lunch_special/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lunch_special/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lunch_special/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/lunch_special/styles/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbc/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/bbc/styles/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +67,11 @@
       <recent name="G:\My_Coding\Udemy Web Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/lunch_special/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/page_layout/page_layout/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="science.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55530/E-12-Spring2021/bbc/science.html" useBuiltInWebServerPort="true">
@@ -83,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.world.html" />
         <item itemvalue="JavaScript Debug.tech.html" />
+        <item itemvalue="JavaScript Debug.world.html" />
         <item itemvalue="JavaScript Debug.science.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +116,10 @@
       <workItem from="1613133302699" duration="1674000" />
       <workItem from="1613349343895" duration="5124000" />
       <workItem from="1613729862966" duration="21463000" />
+      <workItem from="1613818793485" duration="38000" />
+      <workItem from="1614091720698" duration="1163000" />
+      <workItem from="1614240204310" duration="3149000" />
+      <workItem from="1614410446114" duration="6425000" />
     </task>
     <servers />
   </component>

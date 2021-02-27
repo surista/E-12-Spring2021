@@ -1,0 +1,83 @@
+/* put your style below! */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Google Sans Text",Roboto,Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: darkolivegreen;
+    justify-content: left;
+}
+
+h1 {
+    color: papayawhip;
+    font-family: 'Crete Round', serif;
+    padding-left: 15px;
+}
+
+h2 {
+    color: darkolivegreen;
+    font-family: 'Crete Round', serif;
+    padding-left: 15px;
+}
+
+
+h3,h4 {
+    color: darkolivegreen;
+    font-family: 'Crete Round', serif;
+}
+
+
+img {
+    float: right;
+    padding-left: 15px;
+}
+
+
+main {
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: #385905 solid 2px;
+}
+
+section {
+    flex-basis: 40%;
+    padding: 15px;
+}
+
+aside {
+    flex-basis: 20%;
+    padding: 15px;
+}
+
+
+footer div {
+    display: flex;
+}
+
+
+footer ul {
+    flex-basis: 25%;
+}
+
+
+/* some information you might find useful */
+/* ==========================================
+Adobe Color Palette
+
+"Basil Blur Close Up" Palette by Brynley Edens
+https://color.adobe.com/basil-blur-close-up-1391505-color-theme-13743983
+
+dark green -   color: #385905; 
+medium green - color: #7AA61C; 
+yellow green - color: #A6BF49;
+beige green -  color: #BFBD99; 
+light beige -  color: #F2EDE4; 
+*/
+
+
+
+
