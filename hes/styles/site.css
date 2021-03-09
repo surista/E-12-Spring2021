@@ -41,8 +41,6 @@ font-family stack for 'condensed' elements, such as hX headings, header navigati
 
 body {
     font-family: Roboto, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
 }
@@ -53,45 +51,61 @@ body {
 */
 /* consider uncommenting this to start so that only the footer is visible! */
 
-div.explore,
-div.studentsuccess,
-header
-{
-    display: none;
-}
 
 
 /* -----------------------------
    Styles for footer
+
+   NOTE: I could have just used 'display: inline'
+   for the footer links, but I already know how to do that.
+   That's boring - since this was a lesson on learning flexbox,
+   I decided to try making the footer navigation with flex
    ----------------------------- */
 
 footer {
     display: flex;
     flex-flow: column wrap;
-    align-items: left;
     justify-content: center;
-    background-color: black;
+    background-color: #020203;
     color: #ffffff;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+footer a:active,
+footer a:link,
+footer a:visited{
+    color: white;
+    text-decoration: none;
 }
 
 
-footer li {
-    list-style: none;
+footer .contactplus li {
+    margin-right: 25px;
+    font-weight: bold;
 }
 
-footer ul {
-    padding: 0;
+.privacyplus li {
+    border-right: 1px solid white;
+    padding-right:1.2em;
+    margin-right: 1.2em;
 }
 
-.privacyplus ul {
+ .privacyplus li:last-child {
+     border: none;
+ }
+
+footer ul, p {
+    padding-left: 15px;
+}
+
+footer nav ul {
     display: flex;
-    margin-left: 15px;
+    list-style-type: none;
+    padding-right: 10px;
 }
 
-.contactplus ul {
-    display: flex;
-    margin-left: 15px;
-}
+
 /* ----------------------------- */
 
 /* -----------------------------
@@ -99,6 +113,36 @@ footer ul {
    ----------------------------- */
 
 /* ----------------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F5F5F8;
+    color: #ffffff;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+header h2 {
+    background-color: #A51C30;
+    font-variant: small-caps;
+    width:  100%;
+}
+
+header h2.wordmark {
+    background-color: white;
+    text-indent: -9999px;
+    height: 3em;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline;
+}
+
 
 
 /* -----------------------------
@@ -128,8 +172,75 @@ footer ul {
 
 /* ----------------------------- */
 
+main {
+    background-image: url("../images/campus_bridge_river.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sections h2 {
+    background-color: #F5F5F8;
+    text-transform: uppercase;
+}
+
+.sections ul {
+    background-color: #EBEBEB;
+}
+
+section {
+    border-top: 3px solid #A51C30;
+    width: 250px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+
+
 /* -----------------------------
    Styles for "Student Success"
    ----------------------------- */
+.studentsuccess {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* ----------------------------- */
+h2 + p {
+    width: 60%;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    margin: 10px;
+    width: 285px;
+    padding: 5px;
+    background: white;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article li {
+    list-style-type: none;
+}
+
+li.hometown {
+    list-style-image: url("../images/map-marker.svg");
+}
+
+li.program {
+    list-style-image: url("../images/mortar-board.svg");
+}

@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70ca78-6f99-4375-999d-16423858f8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hes (1).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/flexboxdemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/campus_bridge_river.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/hes_shield_wordmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/map-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/mortar-board.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/student-success-bradley-thomas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/student-success-marilena-dania.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/images/student-success-tazeen-hasan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/new_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/screenshot/harvard-extension-explore-studentsuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/styles/demo_site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/styles/flexdemostyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/styles/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout.zip" beforeDir="false" afterPath="$PROJECT_DIR$/page_layout.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/._page_layout" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/._styles" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/images/._basil-250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/images/._mint-250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/__MACOSX/page_layout/styles/._site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/page_layout/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/page_layout/images/basil-250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/page_layout/images/mint-250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/page_layout/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_layout/page_layout/styles/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hes/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/hes/styles/site.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +114,7 @@
       <workItem from="1614647465478" duration="1054000" />
       <workItem from="1614812863835" duration="7681000" />
       <workItem from="1615209809684" duration="9359000" />
-      <workItem from="1615263208633" duration="1681000" />
+      <workItem from="1615263208633" duration="19234000" />
     </task>
     <servers />
   </component>
