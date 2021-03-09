@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Google Sans Text",Roboto,Arial,sans-serif;
+    flex-wrap: wrap;
 }
 
 header {

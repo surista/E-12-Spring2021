@@ -10,9 +10,13 @@ As an example, if I were to answer this for the browser I am currently using, it
 
 Your Answers for the two browsers you are using:
 
-1.
+1.  Chrome
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
 
 
-2. 
+2. Firefox
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0
 
 
+3. Edge
+   Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81
