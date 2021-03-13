@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70ca78-6f99-4375-999d-16423858f8f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Project/images/icon-24-7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/images/icon-budget.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/images/icon-font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/images/icon-help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/images/icon-paper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/images/icon-translation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/styles/tbsj_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/tbsj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hes/styles/misc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hes/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/hes/styles/site.css" afterDir="false" />
     </list>
@@ -54,6 +63,8 @@
       <recent name="G:\My_Coding\Udemy Web Developer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My_Coding\E-12-Spring2021\Project\styles" />
+      <recent name="G:\My_Coding\E-12-Spring2021\Project" />
       <recent name="G:\My_Coding\E-12-Spring2021\hes\styles" />
     </key>
   </component>
@@ -67,19 +78,19 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/hes/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/page_layout/page_layout/index.html" useBuiltInWebServerPort="true">
+    <configuration name="new_index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/hes/new_index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="new_index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/hes/new_index.html" useBuiltInWebServerPort="true">
+    <configuration name="tbsj.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/E-12-Spring2021/Project/tbsj.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.tbsj.html" />
         <item itemvalue="JavaScript Debug.new_index.html" />
         <item itemvalue="JavaScript Debug.flexboxdemo.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +125,8 @@
       <workItem from="1614647465478" duration="1054000" />
       <workItem from="1614812863835" duration="7681000" />
       <workItem from="1615209809684" duration="9359000" />
-      <workItem from="1615263208633" duration="19234000" />
+      <workItem from="1615263208633" duration="21792000" />
+      <workItem from="1615551972320" duration="8340000" />
     </task>
     <servers />
   </component>

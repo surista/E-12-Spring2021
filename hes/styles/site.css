@@ -79,7 +79,6 @@ footer a:visited{
     text-decoration: none;
 }
 
-
 footer .contactplus li {
     margin-right: 25px;
     font-weight: bold;
@@ -141,6 +140,7 @@ header nav ul {
 }
 header nav ul li {
     display: inline;
+    padding-left: 2em;
 }
 
 
@@ -171,35 +171,38 @@ header nav ul li {
    ----------------------------- */
 
 /* ----------------------------- */
-
 main {
-    background-image: url("../images/campus_bridge_river.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.sections {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .sections h2 {
     background-color: #F5F5F8;
     text-transform: uppercase;
+    margin: 0px;
 }
 
 .sections ul {
     background-color: #EBEBEB;
 }
 
-section {
-    border-top: 3px solid #A51C30;
-    width: 250px;
-    margin: 10px;
-    padding-bottom: 50px;
+.sections {
+    background-image: url("../images/campus_bridge_river.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+
+.sections section {
+    flex-basis: 27%;
+    flex-shrink: 0;
+    border-top: 5px solid #A51C30;
+    background-color: #ebebeb;
+    margin: 2em 2em;
+
 }
 
 
@@ -227,7 +230,7 @@ h2 + p {
 article {
     margin: 10px;
     width: 285px;
-    padding: 5px;
+    padding: 10px;
     background: white;
     display: flex;
     flex-flow: column nowrap;

@@ -1,0 +1,21 @@
+
+main {
+    background-image: url("../images/campus_bridge_river.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.sections section {
+    border-top: 3px solid #A51C30;
+    margin: 10px;
+    flex-basis: 25%;
+    flex-shrink: 0;
+}
