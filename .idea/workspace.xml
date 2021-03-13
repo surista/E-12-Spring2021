@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e70ca78-6f99-4375-999d-16423858f8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project/images/icon-24-7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/images/icon-budget.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/images/icon-font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/images/icon-help.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/images/icon-paper.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/images/icon-translation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/styles/tbsj_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/tbsj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hes/styles/misc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hes/styles/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/hes/styles/site.css" afterDir="false" />
     </list>

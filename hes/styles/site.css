@@ -1,44 +1,3 @@
-/* -----------------------------
-   colors used
-   -----------------------------
-    #000000
-    #020203
-    #4d84c4
-    #a51c30
-    #f5f5f8
-    #ebebeb
-    #ffffff
-    
-    You can see the color palette (minus the white and black) at: 
-    https://coolors.co/a51c30-4d84c4-020203-ebebeb-f5f5f8
-*/
-
-/* -----------------------------
-   fonts used
-   -----------------------------
-Note that Roboto and "Roboto Condensed" are available from the linked fonts already in the HTML
-
-font-family stack for most things:
-    Roboto, Arial, sans-serif;
-
-font-family stack for 'condensed' elements, such as hX headings, header navigation, and links in the 'Explore'  section:
-    'Roboto Condensed', Arial, sans-serif;
-   -----------------------------  */
-
-/* -----------------------------
-   background images used
-   -----------------------------
-../images/hes_shield_wordmark.svg   - This is the HES Shield and HES Wordmark
-../images/campus_bridge_river.jpg   - This is the background image for the 
-                                      "Explore" section
-../images/images/arrow-right.svg    - This is the crimson arrow next to the 
-                                      hypertext links in the "Explore" sections
-../images/mortar-board.svg          - The "cap" in Student Success stories 'program'
-../images/map-marker.svg            - The map marker in Student Success 
-                                      stories 'hometown'
-
-   -----------------------------  */
-
 body {
     font-family: Roboto, Arial, sans-serif;
     display: flex;
@@ -46,79 +5,16 @@ body {
 }
 
 
-/* turn off sections you aren't working on so you can focus!
-   I suggest you begin with working on the "footer"
-*/
-/* consider uncommenting this to start so that only the footer is visible! */
-
-
-
-/* -----------------------------
-   Styles for footer
-
-   NOTE: I could have just used 'display: inline'
-   for the footer links, but I already know how to do that.
-   That's boring - since this was a lesson on learning flexbox,
-   I decided to try making the footer navigation with flex
-   ----------------------------- */
-
-footer {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    background-color: #020203;
-    color: #ffffff;
-    font-size: 0.8em;
-    padding: 1em;
-}
-
-footer a:active,
-footer a:link,
-footer a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-footer .contactplus li {
-    margin-right: 25px;
-    font-weight: bold;
-}
-
-.privacyplus li {
-    border-right: 1px solid white;
-    padding-right:1.2em;
-    margin-right: 1.2em;
-}
-
- .privacyplus li:last-child {
-     border: none;
- }
-
-footer ul, p {
-    padding-left: 15px;
-}
-
-footer nav ul {
-    display: flex;
-    list-style-type: none;
-    padding-right: 10px;
-}
-
-
-/* ----------------------------- */
 
 /* -----------------------------
    Styles for header
    ----------------------------- */
 
-/* ----------------------------- */
-
 header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    background-color: #F5F5F8;
-    color: #ffffff;
+    align-items: flex-end;
+    color: #F5F5F8;
     font-size: 0.8em;
     padding: 1em;
 }
@@ -130,40 +26,75 @@ header h2 {
 }
 
 header h2.wordmark {
-    background-color: white;
+    background-color: #F5F5F8;
     text-indent: -9999px;
-    height: 3em;
 }
 
-header nav ul {
-    list-style-type: none;
-}
+
 header nav ul li {
     display: inline;
-    padding-left: 2em;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+
+}
+
+li.login  {
+
+
+}
+
+li.getinfo {
+
 }
 
 
-
 /* -----------------------------
    Styles for header primary nav
    ----------------------------- */
 
-/* ----------------------------- */
+
+.primary a:active,
+.primary a:link,
+.primary a:visited{
+    color: #020203;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 
-/* -----------------------------
-   Styles for header primary nav
-   ----------------------------- */
+.primary li {
+    border-right: 3px solid #020203;
+    padding-right: 15px;
+}
 
-/* ----------------------------- */
+
+.primary li:last-child,
+.primary li:nth-last-child(2){
+    border: none;
+}
 
 
 /* -----------------------------
    Styles for header secondary nav
    ----------------------------- */
 
-/* ----------------------------- */
+.secondary a:active,
+.secondary a:link,
+.secondary a:visited{
+    color: #4D84C4;
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.secondary li {
+    padding-right: 15px;
+}
+
+
 
 
 /* -----------------------------
@@ -172,38 +103,78 @@ header nav ul li {
 
 /* ----------------------------- */
 main {
+    background-image: url("../images/campus_bridge_river.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+main h1 {
+    text-align: center;
+    color: #F5F5F8;
+    font-size: 4em;
+}
+
 .sections h2 {
     background-color: #F5F5F8;
     text-transform: uppercase;
-    margin: 0px;
+    margin: 0;
+    padding-left: 10px;
 }
 
 .sections ul {
     background-color: #EBEBEB;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
 }
 
 .sections {
-    background-image: url("../images/campus_bridge_river.jpg");
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-between;
+    padding-bottom: 15px;
 }
 
 
 .sections section {
-    flex-basis: 27%;
+    flex-basis: 28%;
     flex-shrink: 0;
     border-top: 5px solid #A51C30;
-    background-color: #ebebeb;
-    margin: 2em 2em;
-
+    background-color: #EBEBEB;
+    margin: 1.5em 1.5em;
+    padding-right: 5px;
+    font-weight: bold;
 }
+
+.sections li {
+    list-style-type: none;
+    margin-right: 0.1em;
+    padding: 0.3em;
+}
+
+.sections li:first-child {
+    padding-top: 25px;
+}
+.sections li:last-child {
+    padding-bottom: 25px;
+}
+
+.sections li:after {
+    content: url("../images/arrow-right.svg");
+}
+
+
+.sections a:active,
+.sections a:link,
+.sections a:visited{
+    color: #a51c30;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+
 
 
 
@@ -231,7 +202,7 @@ article {
     margin: 10px;
     width: 285px;
     padding: 10px;
-    background: white;
+    background: #F5F5F8;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -246,4 +217,59 @@ li.hometown {
 
 li.program {
     list-style-image: url("../images/mortar-board.svg");
+}
+
+
+
+
+
+/* -----------------------------
+   Styles for footer
+
+   NOTE: I could have just used 'display: inline'
+   for the footer links, but I already know how to do that.
+   That's boring - since this was a lesson on learning flexbox,
+   I decided to try making the footer navigation with flex
+   ----------------------------- */
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #020203;
+    color: #F5F5F8;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+footer a:active,
+footer a:link,
+footer a:visited{
+    color: #F5F5F8;
+    text-decoration: none;
+}
+
+footer .contactplus li {
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+.privacyplus li {
+    border-right: 1px solid #F5F5F8;
+    padding-right:1.2em;
+    margin-right: 1.2em;
+}
+
+.privacyplus li:last-child {
+    border: none;
+}
+
+footer ul, p {
+    padding-left: 15px;
+}
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 10px;
 }
