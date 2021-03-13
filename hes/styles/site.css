@@ -44,8 +44,8 @@ li.login  {
 
 }
 
-li.getinfo {
-
+.getinfo {
+    color: #EBEBEB;
 }
 
 
@@ -132,7 +132,7 @@ main h1 {
 .sections {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: space-between;
     padding-bottom: 15px;
 }
